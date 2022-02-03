@@ -1,5 +1,7 @@
 (()=>{
 
-  // ここに命令を書く
+  const $doc = document;
+  const $tab = $doc.getElementById("js-tab");
+  console.log('$tab', $tab);
 
 })();
