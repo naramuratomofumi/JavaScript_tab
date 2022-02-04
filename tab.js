@@ -11,4 +11,12 @@
   };
   init()
 
+  // クリックしたら起こるイベント
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log('クリック');
+  };
+
+  $nav[0].addEventListener('click', (e) => handleClick(e));
+
 })();
