@@ -20,7 +20,6 @@
     // クリックされたnavとそのdataを取得
     const $this = e.target;
     const targetVal = $this.dataset.nav;
-    console.log('targetVal', targetVal);
 
     // 対象外のnav、contentを全て一旦リセットする
     let index = 0
