@@ -14,7 +14,8 @@
   // クリックしたら起こるイベント
   const handleClick = (e) => {
     e.preventDefault();
-    console.log('クリック');
+    const $this = e.target;
+    console.log('$this', $this);
   };
 // 全nav要素に対して関数を適応・発火
   let index = 0;
