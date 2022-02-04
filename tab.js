@@ -22,6 +22,7 @@
 
     // 対象のコンテンツをアクティブ化する
     $tab.querySelectorAll('[data-content="' + targetVal + '"]')[0].style.display = 'block';
+    $nav[targetVal].classList.add('is-active')
   };
 // 全nav要素に対して関数を適応・発火
   let index = 0;
