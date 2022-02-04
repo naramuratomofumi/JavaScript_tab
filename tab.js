@@ -14,8 +14,11 @@
   // クリックしたら起こるイベント
   const handleClick = (e) => {
     e.preventDefault();
+
+    // クリックされたnavとそのdataを取得
     const $this = e.target;
-    console.log('$this', $this);
+    const targetVal = $this.dataset.nav;
+    console.log('targetVal', targetVal);
   };
 // 全nav要素に対して関数を適応・発火
   let index = 0;
